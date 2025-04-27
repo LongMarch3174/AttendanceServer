@@ -6,9 +6,9 @@ import org.json.JSONObject;
 
 public class DatabaseHelper {
 
-    private static final String DB_URL = "jdbc:mysql://120.24.52.35:35306/attendance_db";
+    private static final String DB_URL = "jdbc:mysql://*.*.*.*:****/attendance_db";
     private static final String DB_USER = "attendance";
-    private static final String DB_PASSWORD = "@Xufeiran1";
+    private static final String DB_PASSWORD = "********";
 
     static {
         try {
